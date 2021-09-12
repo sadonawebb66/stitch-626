@@ -1,25 +1,64 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8">		
 <title>HTML1</title>
+	<style> 
+		body {background-color:palegoldenrod}
+			p{color:darkslategray;
+			  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+			  }
+		h1{font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"}
+		h2{ font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+		h3{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+		.rightCol{background-color:burlywood}
+		#listWhyNot{color:darkred}
+	</style>
 </head>
 
 <body>
-	<h1 style="text-align:center;">Marvel Cinematic Universe: In Chronological Order</h1>
+	
+	
+	<h1 style="text-align:center;">Marvel Cinematic Universe: In <b style="color:crimson;">Chronological</b> Order</h1>
 	<hr>
 	<h2> Captain America: The First Avenger</h2>
 	
 		<img src="images/marvel.2.jpg" alt="Captain America film poster">
-		<h3>Starting the saga off in 1941...</h3>
+		<h3>Starting the saga off in <i style="color: crimson">1941</i>...</h3>
 	<p><b>Description:</b> The year is 1941 and the world is in the throes of war. Steve Rogers wants to do his civil duty and join America's armed forces, but the military rejects him due to his small size. <i>Finally,</i> Steve is able to get his chance when he's accepted into an experimental program that ends up turning him into the one and only supersoldier we now know as <em>Captain America.</em> Joining forces with his best friend Bucky Barnes and Peggy Carter, Captain America leads the fight against the Nazi-backed HYDRA organization.</p>
+	<table style="border: 1px solid black; border-collapse: collapse;">
+		<tr style="border: 1px solid black; border-collapse: collapse;" >
+			<th align="left">Character</th>
+			<th align="left">Actor</th>
+			<th align="left">Relevance in Movie</th>
+		</tr>
+		<tr>
+			<td>Steve Rodgers</td>
+			<td>Chris Evans</td>
+			<td class="rightCol">10</td>
+		</tr>
+		<tr>
+			<td>Peggy Carter</td>
+			<td>Hayley Atwell</td>
+			<td class="rightCol">6</td>
+		</tr>
+	</table>
+	
 	<hr>
 	<h2> Captain Marvel</h2>
 	<img src="images/marvel.3.jpg" alt="Captain Marvel standing alone movie poster">
 	<p><b>Description:</b> Captain Marvel is an extraterrestrial Kree warrior who finds herself caught in the middle of an intergalactic battle between her people and the Skrulls. Living on Earth in 1995, Captain Marvel keeps having recurring memories of <i>another</i> life as U.S. Air Force pilot Carol Danvers. With help from Nick Fury, Captain Marvel works to uncover the secrets of her past while also harnessing her special superpowers to end the war with the "evil" Skrulls.</p>
+	<h3 id="listWhyNot"><b>Why <a href="https://www.reddit.com/r/unpopularopinion/comments/b1x1tu/captain_marvel_was_a_bad_movie/Captain Marvel Isn't My Favorite Superhero">Captain Marvel</a> Isn't My Favorite Superhero</b></h3>
+	<ul>
+		<li>Not much character development</li>
+		<li>Too powerful too soon</li>
+		<li id="SuperFull"> </li>
+	</ul>
 	<hr>
 	<h2> Iron Man</h2>
 	<img src="images/marvel.4.jpg" alt="Iron Man movie poster">
-	<p><b>Description:</b> Billionaire industrialist and genius inventor,Tony Stark, is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead though, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism becoming the well known <b title="Robert Downey Jr.">Iron Man.</b></p>
+	<p><b>Description:</b> Billionaire industrialist and genius inventor,<a href="ironmanfanpage.html">Tony Stark</a>, is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon. Instead though, he builds an armored suit and upends his captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism becoming the well known <b title="Robert Downey Jr.">Iron Man.</b></p>
 </body>
+	<script>
+	document.getElementById("SuperFull").innerHTML= "Super full of herself throughout the movie"</script>
 </html>
